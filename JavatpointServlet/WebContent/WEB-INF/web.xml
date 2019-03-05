@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>JavatpointServlet</display-name>
+  <servlet>
+    <servlet-name>Servlet1</servlet-name>
+    <servlet-class>com.sbc.HttpServlet.Servlet1</servlet-class>
+    <init-param>
+      <param-name>driver</param-name>
+      <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+    </init-param>
+    <init-param>
+      <param-name>username</param-name>
+      <param-value>user</param-value>
+    </init-param>
+    <init-param>
+      <param-name>password</param-name>
+      <param-value>pass</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/1</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>ActiveUsername</param-name>
+    <param-value>aUser</param-value>
+  </context-param>
+  <context-param>
+    <param-name>ActivePassword</param-name>
+    <param-value>aPass</param-value>
+  </context-param>
+</web-app>

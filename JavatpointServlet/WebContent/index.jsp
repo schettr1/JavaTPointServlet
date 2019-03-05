@@ -1,3 +1,5 @@
+<p><i>In order to use MySQL database, you need 'mysql-connector-java-5.1.18.jar' for MySQL version 5.7</i></p>
+<p><i>Add 'mysql-connector-java-8.0.11.jar' if you are using MySQL version 8. Save the jar file inside 'WEB-INF/lib' folder</i></p>
 <h1>This is 'index.jsp' page</h1>
 
 <form method="POST" action="ValidationServlet">

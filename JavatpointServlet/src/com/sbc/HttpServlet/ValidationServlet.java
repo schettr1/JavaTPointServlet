@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * validate the login form
+ **/
 @WebServlet("/ValidationServlet")
 public class ValidationServlet extends HttpServlet {
 	
